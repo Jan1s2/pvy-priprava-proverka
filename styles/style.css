@@ -4,3 +4,6 @@ td,th {
 table,th,td {
     border: 1px solid;
 }
+.pc {
+    width: 200px;
+}
