@@ -1,3 +1,12 @@
+* {
+    background-color: #ededed;
+}
+body {
+    margin: 1.5em 3.5em;
+}
+table {
+    border-collapse: collapse;
+}
 td,th {
     padding: 5px;
 }
@@ -6,4 +15,7 @@ table,th,td {
 }
 .pc {
     width: 200px;
+}
+.highlight {
+    background-color: yellow;
 }
