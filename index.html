@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Příprava na praktickou prověrku</title>
+</head>
+<body>
+    <header>
+    <h1>
+        Příprava na praktickou prověrku
+    </h1>
+    <ul>
+        <li>
+            <a href="#upravy">Textové úpravy</a>
+        </li>
+        <li>
+            <a href="#tabulka">Tabulka</a>
+        </li>
+    </ul>
+    </header>
+    <main>
+        <h2 id="upravy">
+            Textové úpravy
+        </h2>
+        <h3>
+            Adresy používané na internetu
+        </h3>
+        <p>
+            Na internetu se používají <b>IP adresy</b>, 
+            které se dále dělí na <b>IPv4</b> (32bit) a <b>IPv6</b> (128bit).
+            Obvykle uživatel vidí <b>domény</b> místo IP adres.
+        </p>
+        <p>
+            IPv4 používá pouze čísla v rozmezí 0-255 ve formátu x.x.x.x, kde x označuje číslo.
+            Zároveň se pro bloky adres dá použít tzv. <b>CIDR</b>, kde je určena maska sítě.
+            Dále IPv4 obsahuje <b>privátní</b>, veřejným internetem nedosažitelné, adresy
+            v blocích 10.0.0.0/8, 172.16.0.0/12 a 192.168.0.0/16. 
+            Adresy 127.0.0.0/8 jsou adresy odkazující na lokální stroj a 
+            255.255.255.255 je <b>broadcast</b>.
+        </p>
+        <p>
+            Dnes jsou IPv4 postupně nahrazovány adresami IPv6 s <b>hexadicamálním formátem</b>.
+            ::1 je adresa odkazující na lokální stroj.
+        </p>
+        <p>
+            Doménová jména se uživájí jakožto pro uživatele primární adresy.
+            Jsou to textové názvy IP adres specifikovaných v <b>DNS</b> pomocí <b>A</b> (IPv4),
+            <b>AAAA</b> (IPv6) nebo <b>CNAME</b> (jiná doménová jména) záznamů.
+            Jednotlivé úrovně jsou rozděleny tečkami s tím, že se poslední "tečka" psát nemusí
+            s výjimkou nastavení <b>DNS serverů</b> (obvykle se píše example.com místo example.com.). 
+        </p>
+    </main>
+</body>
+</html>
