@@ -16,3 +16,6 @@ table,th,td {
 .highlight {
     background-color: yellow;
 }
+.overflow {
+    overflow-x: auto;
+}
