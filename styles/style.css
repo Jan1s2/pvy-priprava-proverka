@@ -3,7 +3,8 @@ body {
 */
 font-family: 'Martel', serif;
 margin: 1.5em auto;
-max-width: 1200px;
+width: 1200px;
+max-width: 95%;
 }
 
 table {
@@ -25,8 +26,3 @@ table,th,td {
     overflow-x: auto;
 }
 
-@media only screen and (max-width: 1280px) {
-    body {
-        margin: 1.5em 5%;
-    }
-}
